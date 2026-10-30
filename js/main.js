@@ -272,3 +272,4 @@ function handleFormSubmit(event) {
     form.reset();
   }, 600);
 }
+
