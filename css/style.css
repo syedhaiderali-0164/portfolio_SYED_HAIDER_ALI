@@ -1032,6 +1032,12 @@ body.light-theme .terminal-footer {
 .bg-eda { background: linear-gradient(135deg, #78350f 0%, #92400e 50%, #b45309 100%); }
 .bg-hardware { background: linear-gradient(135deg, #3f3f46 0%, #27272a 50%, #18181b 100%); }
 .bg-apps { background: linear-gradient(135deg, #0c4a6e 0%, #075985 50%, #0284c7 100%); }
+.bg-python { background: radial-gradient(circle at 80% 20%, rgba(234, 179, 8, 0.35) 0%, transparent 55%), linear-gradient(135deg, #0b1f3a 0%, #1d4ed8 50%, #0284c7 100%); }
+
+.python-icon-glow {
+  color: #38bdf8;
+  filter: drop-shadow(0 0 16px rgba(250, 204, 21, 0.7)) drop-shadow(0 6px 12px rgba(0, 0, 0, 0.5));
+}
 
 .project-badge-top {
   position: absolute;
